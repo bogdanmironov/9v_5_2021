@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main () {
-    long int n,a=1,b=0,i;
+    int n,a=1,b=0,i;
     do{
         printf("Which number do you want?");scanf("%d", &n);
     }while(n<0);
